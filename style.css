@@ -49,6 +49,14 @@
 
 @media (min-width: 501px) and (max-width: 1100px){
   #app {
-
+    grid-template-columns: 55% 45%;
+    grid-template-rows: 15% 10% 30% 30% 15%;
+    grid-template-areas: 
+      'header header'
+      'nav nav'
+      'article-1 ads'
+      'article-2 ads'
+      'footer footer'
+    ;
   }
 }
