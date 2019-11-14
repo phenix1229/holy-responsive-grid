@@ -60,3 +60,18 @@
     ;
   }
 }
+
+@media (max-width: 500px){
+  #app {
+    grid-template-columns: 100vw;
+    grid-template-rows: 20% 10% 17.5% 15% 17.5% 20%;
+    grid-template-areas: 
+      'header'
+      'nav'
+      'article-1'
+      'ads'
+      'article-2'
+      'footer'
+    ;
+  }
+}
